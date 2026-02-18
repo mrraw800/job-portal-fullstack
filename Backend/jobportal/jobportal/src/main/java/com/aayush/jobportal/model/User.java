@@ -1,4 +1,4 @@
-package com.aayush.jobportal;
+package com.aayush.jobportal.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
