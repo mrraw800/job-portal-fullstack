@@ -62,7 +62,7 @@ public class JobController {
     }
 
     // Delete job
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public String deleteJob(@PathVariable Long id) {
         jobRepository.deleteById(id);
         return "Job deleted sucessfully";
